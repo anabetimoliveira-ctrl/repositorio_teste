@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow & Go | Blog de Maquiagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Glow & Go</h1>
+            <p>Seu guia de beleza e autoestima</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Dicas</a></li>
+                <li><a href="#">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="card">
+            <span class="tag">Tutorial</span>
+            <h2>Maquiagem Natural para o Dia a Dia em 5 Passos</h2>
+            <p class="meta">Publicado em 2026 | Por Maria Silva</p>
+
+            <p>A tendência <em>no-makeup makeup</em> veio para ficar. Confira o passo a passo para um visual radiante e leve sem complicar sua rotina!</p>
+
+            <ul class="passos-list">
+                <li><strong>1. Hidratação:</strong> Prepare a pele com um bom hidratante e protetor solar.</li>
+                <li><strong>2. Cobertura leve:</strong> Use um BB Cream ou apenas corretivo nas olheiras.</li>
+                <li><strong>3. Cor natural:</strong> Aplique blush cremoso nas maçãs do rosto.</li>
+                <li><strong>4. Olhos leves:</strong> Use máscara de cílios para abrir o olhar.</li>
+                <li><strong>5. Lábios:</strong> Finalize com um lip balm ou gloss brilhante.</li>
+            </ul>
+
+            <button id="like-btn" class="btn">❤️ <span id="like-count">0</span> Curtidas</button>
+        </article>
+
+        <section class="card">
+            <h3>Deixe seu comentário</h3>
+            <form id="comment-form">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <textarea id="comentario" placeholder="Escreva seu comentário..." required></textarea>
+                <button type="submit" class="btn">Enviar Comentário</button>
+            </form>
+
+            <div id="comments-list">
+                <h4>Comentários recentes:</h4>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Glow & Go - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

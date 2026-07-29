@@ -1,0 +1,130 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #faf5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffe6eb;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ffd1dc;
+}
+
+header h1 {
+    margin: 0;
+    color: #d81b60;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 15px;
+    color: #880e4f;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d81b60;
+    font-weight: bold;
+}
+
+/* Container do Conteúdo */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Cards (Post e Comentários) */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tag {
+    background-color: #f8bbd0;
+    color: #880e4f;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.meta {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.passos-list {
+    line-height: 1.8;
+}
+
+/* Botões */
+.btn {
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ad1457;
+}
+
+/* Formulário de Comentários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.comment-item {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-left: 4px solid #d81b60;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #666;
+}
